@@ -1,0 +1,499 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+img{
+    max-width: 100%;
+}
+body{
+    min-width: 1440px;
+    font-family: 'font', sans-serif;
+}
+.flex{
+    display: flex;
+}
+.container{
+    width: 1440px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.btn-reset{
+    padding: 0;
+    border: none;
+    background-color: transparent; /*устанавливает прозрачный фон*/
+    cursor: pointer; /*курсор меняется на другой*/
+}
+.list-reset{
+    margin: 0;
+    padding: 0;
+    list-style: none; /*отменяет маркеры*/
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+/*header*/
+.header{
+    font-size: 17px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 20px;
+}
+.header_logo{
+    margin-right: auto;
+    padding-top: 28px;
+}
+.list1{
+    margin-right: 180px;
+    padding-top: 39px;
+}
+.list2{
+    padding-top: 39px;
+}
+.item{
+    margin-right: 30px;
+}
+.header_btn{
+    border: 1px solid rgba(8, 8, 41, 0.2);
+    border-radius: 14px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    width: 219px;
+    height: 61px;
+    margin-top: 20px;
+}
+
+/*hero*/
+.hero-content{
+    padding-left: 40px;
+    padding-top: 100px;
+    width: 470px;
+}
+.hero-content h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 63px;
+    line-height: 79px;
+}
+.hero-content p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+}
+.btn-hero{
+    position: absolute;
+    background-color: #3f53d8;
+    border-radius: 14px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    width: 219px;
+    height: 61px;
+}
+.foto-hero{
+    padding-left: 100px;
+}
+.strela{
+    margin-left: 240px;
+    margin-top: -20px;
+}
+
+/*more*/
+.more{
+    margin-top: 143px;
+}
+.more-h2{
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+}
+.more-img{
+    justify-content: space-around;
+    margin-top: 24px;
+}
+
+/*results*/
+.results{
+    margin-top: 147px;
+}
+.results-h2{
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 56px;
+}
+.results-p{
+    margin-bottom: 56px;
+    width: 545px;
+    margin: 0 auto;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #545479;
+}
+.results-blok{
+    margin-top: 56px;
+}
+.main-blok{
+    justify-content: space-around;
+}
+.blok{
+    width: 300px;
+    height: 245px;
+}
+.blok img{
+    margin: 0 35%;
+}
+.blok p{
+    margin-top: 31px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+}
+
+/*ship*/
+.ship{
+    margin-top: 180px;
+}
+.ship-div{
+    margin-left: 200px;
+    width: 432px;
+}
+.ship h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 56px;
+    margin: 0;
+}
+.ship p{
+    margin: 0;
+    margin-top: 27px;
+    width: 400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #545479;
+}
+.ship ul{
+    list-style: none;
+    margin-top: 35px;
+}
+.ship li{
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+}
+.btn-ship{
+    background-color: #3f53d8;
+    border-radius: 14px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    width: 174px;
+    height: 59px;
+    margin-top: 33px;
+}
+
+/*build*/ 
+.build{
+    margin-top: 251px;
+}
+.build-div{
+    width: 432px;
+    padding-top: 30px;
+    margin-right: 200px;
+}
+.build h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 56px;
+    margin: 0;
+}
+.build-div-p{
+    margin: 0;
+    margin-top: 27px;
+    margin-bottom: 43px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #545479;
+}
+.build ul{
+    list-style: none;
+    padding: 0;
+    margin-left: 24px;
+}
+.build li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+/*get*/
+.get{
+    margin-top: 180px;
+}
+.get-div{
+    width: 432px;
+    margin-left: 200px;
+}
+.get h2{
+    width: 355px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+}
+.get p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    color: #545479;
+    padding-bottom: 34px;
+    border-bottom: 2px solid rgba(8, 8, 41, 0.3);;
+}
+
+/*fun*/
+.fun{
+    margin-top: 177px;
+}
+.fun h2{
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 56px;
+}
+.divs{
+    margin-top: 82px;
+    justify-content: space-around;
+}
+.fun h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 34px;
+    margin: 0;
+    margin-top: 37px;
+}
+.fun-div p{
+    margin-top: 20px;
+    width: 340px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    color: #545479;
+}
+
+/*plus*/
+.plus{
+    margin-top: 192px;
+}
+.plus2{
+    padding: 0 120px;
+}
+.kolvo{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 58px;
+    margin: 0;
+}
+.plus-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #545479;
+    width: 190px;
+    margin: 0;
+    padding-top: 15px;
+}
+.plus-blok{
+    margin-left: 187px;
+    list-style: none;
+}
+.plus-blok li :not(:last-child){
+    margin-right: 70px;
+}
+
+/*collab*/
+.collab{
+    margin-top: 175px;
+}
+.collab h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 56px;
+    text-align: center;
+    margin-bottom: 136px;
+}
+.col-img{
+    justify-content: space-around;
+}
+.col-img:not(:last-child){
+    margin-bottom: 135px;
+}
+
+/*articles*/
+.articles{
+    margin-top: 177px;
+}
+.articles h2{
+    margin-bottom: 82px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 56px;
+    text-align: center;
+}
+.articles_div{
+    justify-content: space-around;
+}
+.ar_blok{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    border-radius: 10px;
+    width: 101px;
+    height: 34px;
+    text-align: center;
+    padding-top: 8px;
+    margin-top: 31px;
+}
+.blok1{
+    background: rgba(162, 89, 255, 0.3);
+}
+.blok2{
+    background: #D9DEFF;
+}
+.blok3{
+    background: rgba(250, 91, 104, 0.3);
+}
+.blok_blok{
+    border-bottom: 2px solid rgba(8, 8, 41, 0.3);
+}
+.ar_blok_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    width: 330px;
+}
+.data{
+    padding-top: 11px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+/*challenge*/
+.challenge{
+    margin-top: 180px;
+    background-color: #080829;
+    height: 676px;
+}
+.challenge h2{
+    width: 839px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 66px;
+    line-height: 79px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    padding-top: 154px;
+}
+.clg_btn{
+    position: absolute;
+    height: 59px;
+    width: 240px;
+    background-color: #3f53d8;
+    border-radius: 14px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    margin: 0 600px;
+    margin-top: 65px;
+}
+.ch_img{
+    margin-left: 870px;
+    margin-top: 40px;
+}
+.ch_foto{
+    position: absolute;
+}
+.foto2{
+    margin-left: 108px;
+    margin-top: 32px;
+}
+/*footer*/
+.footer{
+    margin-top: 108px;
+    padding: 0 18%;
+}
+.footer ul li:first-child{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+.footer li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+}
+.footer_items{
+    margin-left: 312px;
+}
+.f_items:not(:first-child){
+    margin-left: 107px;
+}
+.f_items li{
+    margin-bottom: 20px;
+}
+.fi3_img{
+    padding-right: 15px;
+}
+.fi3_icons{
+    margin-top: 35px;
+}
+.fi3_icons img{
+    margin-right: 25px;
+}
+small{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
